@@ -57,3 +57,44 @@ temp/
 # OS
 .DS_Store
 Thumbs.db
+*.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Mac specific
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows specific
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor backups
+*~
+*.swp
+*.swo
+*.bak
+
+# Local secrets (just in case)
+secrets.toml
+.streamlit/secrets.toml
+*.key
+*.pem
+
+# Testing and development
+test_output/
+scratch/
+playground/
