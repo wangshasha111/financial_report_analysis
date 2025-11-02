@@ -98,3 +98,12 @@ secrets.toml
 test_output/
 scratch/
 playground/
+
+
+GITHUB_DESKTOP_GUIDE.md
+QUICK_DEPLOY.md
+
+*.docx
+*.doc
+*.pdf
+*.zip
